@@ -8,32 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AF855B441F7E1878006CD451 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF855B431F7E1878006CD451 /* main.swift */; };
-		AF855BA31F7E1E85006CD451 /* Localizable.strings in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF855B761F7E1CB1006CD451 /* Localizable.strings */; };
-		AF855BA41F7E1E88006CD451 /* Main.storyboard in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF855B9B1F7E1DDA006CD451 /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AF855B3E1F7E1878006CD451 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				AF855BA41F7E1E88006CD451 /* Main.storyboard in CopyFiles */,
-				AF855BA31F7E1E85006CD451 /* Localizable.strings in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF855B401F7E1878006CD451 /* strings2storyboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = strings2storyboard; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF855B431F7E1878006CD451 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AF855B751F7E1CB1006CD451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		AF855B781F7E1CC4006CD451 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		AF855B9C1F7E1DDA006CD451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF855BA01F7E1DEB006CD451 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
-		AF855BA21F7E1DF5006CD451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +29,6 @@
 		AF855B371F7E1878006CD451 = {
 			isa = PBXGroup;
 			children = (
-				AF855B4E1F7E1959006CD451 /* Resource */,
 				AF855B421F7E1878006CD451 /* strings2storyboard */,
 				AF855B411F7E1878006CD451 /* Products */,
 			);
@@ -72,15 +50,6 @@
 			path = strings2storyboard;
 			sourceTree = "<group>";
 		};
-		AF855B4E1F7E1959006CD451 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				AF855B9B1F7E1DDA006CD451 /* Main.storyboard */,
-				AF855B761F7E1CB1006CD451 /* Localizable.strings */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,7 +59,6 @@
 			buildPhases = (
 				AF855B3C1F7E1878006CD451 /* Sources */,
 				AF855B3D1F7E1878006CD451 /* Frameworks */,
-				AF855B3E1F7E1878006CD451 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -146,28 +114,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AF855B761F7E1CB1006CD451 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF855B751F7E1CB1006CD451 /* en */,
-				AF855B781F7E1CC4006CD451 /* zh-Hant */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		AF855B9B1F7E1DDA006CD451 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF855B9C1F7E1DDA006CD451 /* Base */,
-				AF855BA01F7E1DEB006CD451 /* zh-Hant */,
-				AF855BA21F7E1DF5006CD451 /* en */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF855B451F7E1878006CD451 /* Debug */ = {
